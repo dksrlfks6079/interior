@@ -1,0 +1,35 @@
+.inner {
+    margin-top: 140px;
+}
+
+.back {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    color: #777;
+    margin-bottom: 15px;
+}
+.slick-dots li button:before {
+    font-size: 15px;
+    opacity: 0.1;
+}
+
+.detail_text {
+    width: 375px;
+    display: inline-flex;
+    align-items: center;
+    background-color: red;
+}
+
+.detail_text h2 {
+    margin-left: auto;
+}
+
+.detail_text i {
+    font-size: 25px;
+}
+
+.star {
+    display: inline;
+    background-color: #ddd;
+}
