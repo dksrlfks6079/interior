@@ -1,0 +1,51 @@
+.inner {
+    margin-top: 170px;
+}
+
+.best_detail {
+    display: flex;
+}
+
+.best h2 {
+    padding: 20px 30px 38px;
+    color: var(--point);
+}
+
+.photo_01 {
+    background-image: url(../images/wood.jpg);
+}
+.photo_02 {
+    background-image: url(../images/whitebox.jpg);
+}
+.photo_03 {
+    background-image: url(../images/bed.png);
+}
+.photo_04 {
+    background-image: url(../images/stand.jpg);
+}
+.photo_05 {
+    background-image: url(../images/yellow_sofa.jpg);
+}
+.photo_06 {
+    background-image: url(../images/second_wood.jpg);
+}
+
+/* 배너 */
+
+.bg {
+    width: 375px;
+    height: 112px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_01 {
+    background-image: url(/images/banner_01.jpg);
+}
+.banner_02 {
+    background-image: url(/images/banner_02.jpg);
+}
+.banner_03 {
+    background-image: url(/images/banner_03.jpg);
+}

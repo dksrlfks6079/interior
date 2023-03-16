@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --point: #493e3e;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 375px;
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+}
+
+/* 기타요소 */
+
+/* 탑메뉴 */
+.top {
+    width: 375px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.user {
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+}
+
+.user i {
+    padding: 10px;
+    font-size: 25px;
+    color: #777;
+}
+
+.nav {
+    display: flex;
+    padding: 20px 0;
+    width: 375px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.top .nav li {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+/*제품사진,가격  */
+.photo {
+    width: 170px;
+    height: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ddd;
+}
+
+.text_box {
+    padding: 20px 0 60px;
+}
+
+.selling {
+    font-size: 13px;
+    display: inline-block;
+    padding-right: 8px;
+}
+
+/* 색상미리보기 박스 */
+.color_box {
+    display: flex;
+    margin: 3px 0;
+}
+
+.black_color {
+    width: 18px;
+    height: 18px;
+    background-color: #111;
+    border: 1px solid #ddd;
+    margin: 0 3px 0 0;
+}
+.white_color {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.brown_color {
+    width: 18px;
+    height: 18px;
+    background-color: #be987d;
+    border: 1px solid #ddd;
+    margin: 0 3px 0 0;
+}
+.darkbrown_color {
+    width: 18px;
+    height: 18px;
+    background-color: #4b2020;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+
+/* 푸터 */
+.footer {
+    height: 100px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 13px;
+    color: #777;
+}

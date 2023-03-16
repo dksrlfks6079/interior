@@ -1,0 +1,45 @@
+.inner {
+    height: 667px;
+    background-image: url(/images/main_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 125px 56px 50px;
+}
+
+.inner h2 {
+    color: var(--point);
+    margin-bottom: 190px;
+    font-weight: 400;
+}
+
+.login_box input {
+    width: 263px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 0 10px;
+    border: none;
+    opacity: 0.8;
+}
+
+.login_box input:focus {
+    outline: none;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.login_btn p {
+    width: 263px;
+    height: 62px;
+    line-height: 62px;
+    background-color: var(--point);
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.login_btn p:hover {
+    background-color: #a18585;
+    transition: all 0.3s;
+}
