@@ -1,3 +1,8 @@
+h2 {
+    margin-bottom: 30px;
+    position: relative;
+}
+
 .inner {
     margin-top: 170px;
 }
@@ -5,4 +10,92 @@
 .best h2 {
     padding: 20px 30px 38px;
     color: var(--point);
+}
+
+.truck_icon img {
+    position: absolute;
+    top: 15px;
+    left: 35%;
+    width: 50px;
+    height: 50px;
+}
+
+.section_01 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.section_02 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text_box {
+    padding: 0 0 30px 0;
+    width: 170px;
+    height: 170px;
+}
+
+.countdown-timer-wrapper .timer {
+    padding: 10px;
+    text-align: center;
+}
+
+.countdown-timer-wrapper .timer .timer-wrapper {
+    display: inline-block;
+    width: 110px;
+    padding: 10px;
+}
+
+.countdown-timer-wrapper .timer .timer-wrapper .time {
+    font-size: 62px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.countdown-timer-wrapper .timer .timer-wrapper .text {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* 상품사진 */
+
+.photo_07 {
+    background-image: url(/images/bingruri.jpg);
+}
+.photo_08 {
+    background-image: url(/images/color_stand.jpg);
+}
+.photo_09 {
+    background-image: url(/images/wood.jpg);
+}
+.photo_10 {
+    background-image: url(/images/chair.jpg);
+}
+.photo_11 {
+    background-image: url(/images/whitebox.jpg);
+}
+
+/* 타이머 */
+
+.sec7-text-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec7-text-box p {
+    color: #111;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.time {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ff7878;
+    border-radius: 15px;
 }

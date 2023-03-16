@@ -113,7 +113,7 @@ body {
     height: 18px;
     background-color: #fff;
     border: 1px solid #ddd;
-    margin: 0;
+    margin: 0 3px 0 0;
 }
 .brown_color {
     width: 18px;
@@ -126,6 +126,13 @@ body {
     width: 18px;
     height: 18px;
     background-color: #4b2020;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.yellow_color {
+    width: 18px;
+    height: 18px;
+    background-color: #ffcd6c;
     border: 1px solid #ddd;
     margin: 0;
 }

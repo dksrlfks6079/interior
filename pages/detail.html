@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+        />
+        <title>인테리어 앱</title>
+        <link rel="stylesheet" href="/css/common.css" />
+        <link rel="stylesheet" href="/css/best.css" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="top">
+                <div class="user">
+                    <a href="/index.html"><i class="xi-user-o"></i></a>
+                    <i class="xi-cart-o"></i>
+                </div>
+                <ul class="nav">
+                    <li>베스트</li>
+                    <li>오늘 출발</li>
+                    <li>테이블 및 책상</li>
+                    <li>조명</li>
+                    <li>식탁 세트</li>
+                    <li>거실가구</li>
+                    <li>인테리어 소품</li>
+                </ul>
+            </div>
+        </div>
+        <script src="/js/common.js"></script>
+        <script
+            type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script>
+            $(document).ready(function () {
+                $(".banner").slick({
+                    slidesToShow: 1,
+                    arrows: false,
+                    infinite: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                })
+            })
+        </script>
+    </body>
+</html>
