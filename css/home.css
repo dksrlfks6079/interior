@@ -1,0 +1,59 @@
+.spring_event {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.spring_event h2 {
+    color: rgb(247, 165, 179);
+    padding: 20px 0 50px 10px;
+}
+
+.spring_event .spring_slider {
+    display: flex;
+}
+
+.spring_slider .spring_photo {
+    position: relative;
+    padding-right: 10px;
+}
+
+.spring_slider p {
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: top 0.3s;
+}
+
+.spring_slider .spring_photo img {
+    border-radius: 50px;
+}
+
+.spring_slider .spring_photo img:hover {
+    opacity: 0.6;
+}
+
+.spring_slider .spring_photo:hover p {
+    top: 50%;
+}
+
+/* 금주의 베스트 */
+.h2_text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 80px;
+    padding: 20px 0;
+}
+
+.h2_text a {
+    display: inline;
+}
+
+.best h2 {
+    padding: initial !important;
+}

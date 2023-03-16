@@ -50,7 +50,15 @@ body {
     background-color: #fff;
     z-index: 2;
 }
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .user {
+    position: relative;
     height: 60px;
     line-height: 60px;
     text-align: right;
