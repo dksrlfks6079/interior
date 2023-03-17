@@ -71,6 +71,7 @@
     color: #777;
 }
 
+/* 옵션선택하는 슬라이드 메뉴  */
 .btn {
     width: 286px;
     height: 62px;
@@ -82,29 +83,49 @@
     font-size: 20px;
 }
 
-/* 옵션선택하는 슬라이드 메뉴  */
-.slide_menu {
-    width: 350px;
+.box {
+    padding: 10px;
+
+    width: 375px;
+    height: 250px;
+    background-color: #ffffffd8;
+    bottom: -250px;
+    position: fixed;
+    transition: all 0.3s;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 30px rgb(248, 239, 239);
+}
+
+.box.on {
+    bottom: 0;
+}
+
+.box i {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_box input {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #eee;
+    border: #eee;
+    border-radius: 5px;
+}
+
+.input_box li {
+    display: inline-block;
     margin: 0 auto;
+    background-color: rgb(211, 181, 141);
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
-.slide_menu {
-    padding: 10px 0;
-    height: 0;
-    overflow: hidden;
-}
-.slide_menu p::after {
-    font-family: "xeicon";
-    content: "\e913";
-    position: absolute;
-    right: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 16px;
-}
-
-.slide_menu .active p {
-    height: auto;
-    padding: 20px 0;
-    overflow: hidden;
+.input_box {
+    text-align: center;
 }

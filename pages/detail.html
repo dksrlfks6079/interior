@@ -102,16 +102,28 @@
                     <ul class="bottom">
                         <li class="like"><i class="xi-heart-o"></i></li>
                         <li class="btn"><a href="#x">구매하기</a></li>
-                        <li class="slide_menu">
-                            <p>옵션선택</p>
-                            <p>색상선택</p>
-                        </li>
                     </ul>
                 </div>
             </div>
         </div>
+
+        <div class="box">
+            <i class="xi-angle-down"></i>
+
+            <div class="input_box">
+                <div>
+                    <input type="text" placeholder="상세옵션(기본4단)" />
+                </div>
+                <div><input type="text" placeholder="색상선택" /></div>
+
+                <ul>
+                    <li><a href="#x">장바구니</a></li>
+                    <li><a href="#x">구매하기</a></li>
+                </ul>
+            </div>
+        </div>
+
         <script src="/js/common.js"></script>
-        <script src="/js/slide.js"></script>
         <script
             type="text/javascript"
             src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
@@ -126,6 +138,12 @@
                     autoplay: true,
                     autoplaySpeed: 800,
                 })
+            })
+            $(".btn").click(function () {
+                $(".box").addClass("on")
+            })
+            $(".box i").click(function () {
+                $(".box").removeClass("on")
             })
         </script>
     </body>
