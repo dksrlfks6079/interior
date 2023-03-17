@@ -14,9 +14,11 @@
     opacity: 0.1;
 }
 
+/* 상품 설명,가격,배송정보 */
+
 .detail {
     padding: 24px;
-    background-color: aqua;
+    overflow: hidden;
 }
 
 .detail_text {
@@ -34,11 +36,7 @@
     font-size: 25px;
 }
 
-.star {
-    background-color: rebeccapurple;
-}
 .text_box p:first-child {
-    background-color: red;
     font-size: 25px;
 }
 
@@ -46,7 +44,59 @@
     padding: initial !important;
 }
 
-.point {
+.port {
+    font-size: 13px;
     display: flex;
-    background-color: red;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.gray_point {
+    color: #777;
+}
+
+/* 버튼 */
+
+.bottom {
+    display: flex;
+    height: 62px;
+    line-height: 62px;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.bottom i {
+    font-size: 25px;
+    color: #777;
+}
+
+.btn {
+    width: 286px;
+    height: 62px;
+    background-color: var(--point);
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* 옵션선택하는 슬라이드 메뉴  */
+.slide_menu {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.slide_menu {
+    padding: 10px 0;
+}
+.slide_menu p::after {
+    font-family: "xeicon";
+    content: "\e913";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
 }
