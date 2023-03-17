@@ -4,6 +4,8 @@
 
 .best_detail {
     display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
 }
 
 .best h2 {

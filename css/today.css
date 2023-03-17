@@ -7,6 +7,10 @@ h2 {
     margin-top: 170px;
 }
 
+.best_detail {
+    padding: 0 20px;
+}
+
 .best h2 {
     padding: 20px 30px 38px;
     color: var(--point);
@@ -59,6 +63,10 @@ h2 {
 }
 /* 상품사진 */
 
+.photo {
+    margin-right: 20px;
+}
+
 .photo_07 {
     background-image: url(/images/bingruri.jpg);
 }
@@ -81,7 +89,9 @@ h2 {
     text-align: center;
     margin-bottom: 50px;
 }
-
+.time {
+    margin: 0 auto;
+}
 .sec7-text-box p {
     color: #111;
     font-size: 25px;

@@ -14,15 +14,20 @@
     opacity: 0.1;
 }
 
+.detail {
+    padding: 24px;
+    background-color: aqua;
+}
+
 .detail_text {
-    width: 375px;
     display: inline-flex;
     align-items: center;
-    background-color: red;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .detail_text h2 {
-    margin-left: auto;
+    margin-right: 50px;
 }
 
 .detail_text i {
@@ -30,6 +35,18 @@
 }
 
 .star {
-    display: inline;
-    background-color: #ddd;
+    background-color: rebeccapurple;
+}
+.text_box p:first-child {
+    background-color: red;
+    font-size: 25px;
+}
+
+.text_box {
+    padding: initial !important;
+}
+
+.point {
+    display: flex;
+    background-color: red;
 }
