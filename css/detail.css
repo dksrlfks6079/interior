@@ -90,6 +90,8 @@
 
 .slide_menu {
     padding: 10px 0;
+    height: 0;
+    overflow: hidden;
 }
 .slide_menu p::after {
     font-family: "xeicon";
@@ -99,4 +101,10 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 16px;
+}
+
+.slide_menu .active p {
+    height: auto;
+    padding: 20px 0;
+    overflow: hidden;
 }
