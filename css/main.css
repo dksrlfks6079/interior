@@ -44,3 +44,18 @@
     background-color: #a18585;
     transition: all 0.3s;
 }
+.login_box p {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 13px;
+}
+.sns {
+    display: flex;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.sns li {
+    font-size: 28px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

@@ -24,12 +24,11 @@ h2 {
     height: 50px;
 }
 
-.section_01 {
+.section_01 a {
     display: flex;
     margin-bottom: 100px;
 }
-
-.section_02 {
+.section_02 a {
     display: flex;
     margin-bottom: 100px;
 }
